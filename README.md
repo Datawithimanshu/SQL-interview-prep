@@ -2,7 +2,7 @@
 
 ![SQL](https://img.shields.io/badge/SQL-MySQL-blue?style=for-the-badge&logo=mysql&logoColor=white)
 ![Level](https://img.shields.io/badge/Level-Beginner%20to%20Advanced-green?style=for-the-badge)
-![Queries](https://img.shields.io/badge/Queries-20%2B-orange?style=for-the-badge)
+![Queries](https://img.shields.io/badge/Queries-15%2B-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
 
 A structured, hands-on SQL practice project covering **JOIN operations from Basic to Advanced** using realistic e-commerce data. Great for interview prep, portfolio building, and skill development.

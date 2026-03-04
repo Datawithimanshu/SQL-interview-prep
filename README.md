@@ -71,9 +71,9 @@ sql-join-practice/
 
 | Level | Topics |
 |---|---|
-| 🟢 Basic | INNER JOIN, LEFT JOIN, RIGHT JOIN, Anti-Join, WHERE filters |
-| 🟡 Intermediate | GROUP BY + JOIN, HAVING, Self Join, Cross Join, Multi-table JOIN |
-| 🔴 Advanced | Window Functions (RANK, PARTITION BY), Running Totals, CTEs, Correlated Subqueries, CASE statements |
+| 🟢 Basic | INNER JOIN, LEFT JOIN, RIGHT JOIN, WHERE filters |
+| 🟡 Intermediate | GROUP BY + JOIN, HAVING, |
+| 🔴 Advanced | Window Functions (RANK, PARTITION BY), CTEs, CASE statements |
 
 ---
 
@@ -83,33 +83,28 @@ sql-join-practice/
 | # | Question |
 |---|---|
 | Q1 | Show all orders with customer name and city |
-| Q2 | Show ALL customers including those with no orders |
-| Q3 | Find customers who have NEVER placed an order |
-| Q4 | List all Electronics orders with membership tier |
-| Q5 | Show Delivered orders from London customers |
+| Q2 | Find customers who have NEVER placed an order |
+| Q3 | List all Electronics orders with membership tier |
+| Q4| Show Delivered orders from London customers |
 
 ### 🟡 Intermediate
 | # | Question |
 |---|---|
-| Q6 | Total amount spent by each customer |
-| Q7 | Total orders and revenue per category |
-| Q8 | Customers who spent more than $1000 |
-| Q9 | Order count and revenue per membership tier |
-| Q10 | All Cancelled orders with customer contact details |
-| Q11 | Monthly revenue trend |
-| Q12 | Self Join — customers from the same city |
-| Q13 | Products bought by both Gold and Bronze tier customers |
+| Q5 | Total amount spent by each customer |
+| Q6 | Total orders and revenue per category |
+| Q7 | Customers who spent more than $1000 |
+| Q8 | Order count and revenue per membership tier |
+| Q9 | All Cancelled orders with customer contact details |
+| Q10 | Monthly revenue trend |
 
 ### 🔴 Advanced
 | # | Question |
 |---|---|
-| Q14 | Rank customers by total spending |
-| Q15 | Rank customers by spending within each membership tier |
-| Q16 | Each customer's most expensive single order |
-| Q17 | Customers who spent above overall average |
-| Q18 | Running total of revenue ordered by date |
-| Q19 | First and latest order per customer using CTE |
-| Q20 | Full report: spending label + rank + order count |
+| Q11 | Rank customers by total spending |
+| Q12 | Rank customers by spending within each membership tier |
+| Q13 | Each customer's most expensive single order |
+| Q14 |  For each customer show their first and latest order date (CTE + JOIN) |
+| Q15 | Full report: spending label + rank + order count |
 
 ---
 
@@ -157,9 +152,8 @@ FROM customers c JOIN summary s ON c.customer_id = s.customer_id;
 
 ## 👤 Author
 
-**[Your Name]**
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- 🐙 GitHub: [github.com/yourusername](https://github.com/yourusername)
+**[Himanshu rawat]**
+- 💼 LinkedIn: [www.linkedin.com/in/himanshu-rawat-151a773ab]
 
 ---
 

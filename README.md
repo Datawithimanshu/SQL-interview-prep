@@ -5,7 +5,6 @@
 ![Queries](https://img.shields.io/badge/Queries-10%2B-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
 
-A structured, hands-on SQL practice project covering **JOIN operations from Basic to Advanced** using realistic e-commerce data. Great for interview prep, portfolio building, and skill development.
 
 ---
 
